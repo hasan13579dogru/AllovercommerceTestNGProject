@@ -105,7 +105,7 @@ public class TC01_wishList extends ExtentReport {
         ReusableMethods.bekle(2);
        extentTest.info("sepet acıldı");
         //Click checkout button
-        alloverPage.checkoutCart.click();//kasaya gitme
+        alloverPage.checkoutCart.click();//kasaya gitmek için
         ReusableMethods.bekle(3);
         extentTest.info("kasaya gidildi");
 
